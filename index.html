@@ -1,0 +1,175 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Josue Mutsiirwa | IT Engineer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Josue Mutsiirwa, IT Engineer helping businesses transform data into actionable insights."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <header class="header glass">
+      <nav class="nav container">
+        <a href="#home" class="logo">Josue<span>.</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section container">
+        <div class="hero-content reveal">
+          <p class="eyebrow">IT Engineer • Data-Focused Problem Solver</p>
+          <h1>Josue Mutsiirwa</h1>
+          <h2><span id="typingText"></span></h2>
+          <p class="hero-text">
+            I help businesses transform raw data into actionable insights and confident decisions.
+            Available for freelance missions and collaborations.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <div class="section-head reveal">
+          <p class="eyebrow">About</p>
+          <h3>Turning complex information into clear business direction</h3>
+        </div>
+        <div class="about-card glass reveal">
+          <p>
+            I am an IT Engineer with a strong focus on data analysis and practical technology
+            solutions. I combine analytical thinking, Python workflows, and dashboard storytelling
+            to uncover patterns that drive better decisions.
+          </p>
+          <p>
+            I learn fast, adapt quickly, and solve real business problems through data cleaning,
+            analysis, and reporting. I also build websites and technical prototypes, including C++
+            projects with Arduino.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Skills</p>
+          <h3>Core capabilities</h3>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card glass reveal"><h4>Excel</h4><div class="bar"><span style="width:88%"></span></div></article>
+          <article class="skill-card glass reveal"><h4>SQL</h4><div class="bar"><span style="width:82%"></span></div></article>
+          <article class="skill-card glass reveal"><h4>Python</h4><div class="bar"><span style="width:86%"></span></div></article>
+          <article class="skill-card glass reveal"><h4>Power BI</h4><div class="bar"><span style="width:80%"></span></div></article>
+          <article class="skill-card glass reveal"><h4>Website Creation</h4><div class="bar"><span style="width:78%"></span></div></article>
+          <article class="skill-card glass reveal"><h4>C++ (Arduino)</h4><div class="bar"><span style="width:72%"></span></div></article>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Projects</p>
+          <h3>Data projects with measurable impact</h3>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card glass reveal">
+            <div class="project-visual chart-1"></div>
+            <h4>Sales Performance Dashboard</h4>
+            <p><strong>Problem:</strong> Sales team lacked real-time visibility on region and product performance.</p>
+            <p><strong>Tools:</strong> Power BI, Excel, SQL</p>
+            <p><strong>Key Insights:</strong> Identified underperforming regions and high-margin product clusters.</p>
+            <p><strong>Business Impact:</strong> Improved monthly planning and supported a 14% revenue uplift strategy.</p>
+          </article>
+
+          <article class="project-card glass reveal">
+            <div class="project-visual chart-2"></div>
+            <h4>Customer Segmentation Model</h4>
+            <p><strong>Problem:</strong> Marketing campaigns had low conversion due to broad audience targeting.</p>
+            <p><strong>Tools:</strong> Python, Pandas, Scikit-learn</p>
+            <p><strong>Key Insights:</strong> Built behavior-based segments and identified high-value customer groups.</p>
+            <p><strong>Business Impact:</strong> Helped design targeted campaigns with higher engagement and lower churn risk.</p>
+          </article>
+
+          <article class="project-card glass reveal">
+            <div class="project-visual chart-3"></div>
+            <h4>SQL Data Exploration for Operations</h4>
+            <p><strong>Problem:</strong> Operations data was fragmented, making KPI tracking slow and inconsistent.</p>
+            <p><strong>Tools:</strong> SQL, Excel</p>
+            <p><strong>Key Insights:</strong> Built reusable SQL queries to track delivery delays and bottleneck causes.</p>
+            <p><strong>Business Impact:</strong> Reduced reporting time and improved decision speed for operations managers.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="section container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Services</p>
+          <h3>How I can help your business</h3>
+        </div>
+        <div class="services-grid">
+          <article class="service-card glass reveal"><h4>Data Cleaning</h4><p>Prepare, standardize, and validate messy datasets for reliable analysis.</p></article>
+          <article class="service-card glass reveal"><h4>Data Analysis</h4><p>Extract trends, uncover patterns, and generate practical recommendations.</p></article>
+          <article class="service-card glass reveal"><h4>Dashboard Creation</h4><p>Build modern, decision-focused dashboards in Power BI and Excel.</p></article>
+          <article class="service-card glass reveal"><h4>Business Reporting</h4><p>Deliver clear reports and insights stakeholders can act on immediately.</p></article>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Contact</p>
+          <h3>Let’s work together</h3>
+        </div>
+        <div class="contact-wrap">
+          <form action="https://formspree.io/f/mzdynbro" method="POST" class="contact-form glass reveal">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <input type="tel" name="phone" placeholder="Your Phone Number" required />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <div class="contact-info glass reveal">
+            <p><strong>Email:</strong> your-email@example.com</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/your-profile</p>
+            <p><strong>Status:</strong> Available for freelance and collaborations</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© 2026 Josue Mutsiirwa. All rights reserved.</p>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="Email">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
