@@ -1,13 +1,12 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Josue Mutsiirwa | IT Engineer Portfolio</title>
+    <title>Josue Mutsiirwa | IT Student Portfolio</title>
     <meta
       name="description"
-      content="Portfolio of Josue Mutsiirwa, IT Engineer helping businesses transform data into actionable insights."
+      content="Portfolio of Josue Mutsiirwa, IT student at Mount Kenya University with practical skills in electronics, Arduino C++, Python, databases, and web development."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="bg-orb orb-1"></div>
@@ -40,59 +39,65 @@
 
     <main>
       <section id="home" class="hero section container">
-        <div class="hero-content reveal">
-          <p class="eyebrow">IT Engineer • Data-Focused Problem Solver</p>
-          <h1>Josue Mutsiirwa</h1>
-          <h2><span id="typingText"></span></h2>
-          <p class="hero-text">
-            I help businesses transform raw data into actionable insights and confident decisions.
-            Available for freelance missions and collaborations.
-          </p>
-          <div class="hero-cta">
-            <a href="#projects" class="btn btn-primary">View Projects</a>
-            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        <div class="hero-about-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">IT Student • Electronics & Data-Focused Problem Solver</p>
+            <h1>Josue Mutsiirwa</h1>
+            <h2><span id="typingText"></span></h2>
+            <p class="hero-text">
+              I am an IT student at Mount Kenya University. I use technology to solve practical
+              problems through data work, electronics, and web development.
+            </p>
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
           </div>
-        </div>
-      </section>
 
-      <section id="about" class="section container">
-        <div class="section-head reveal">
-          <p class="eyebrow">About</p>
-          <h3>Turning complex information into clear business direction</h3>
-        </div>
-        <div class="about-card glass reveal">
-          <p>
-            I am an IT Engineer with a strong focus on data analysis and practical technology
-            solutions. I combine analytical thinking, Python workflows, and dashboard storytelling
-            to uncover patterns that drive better decisions.
-          </p>
-          <p>
-            I learn fast, adapt quickly, and solve real business problems through data cleaning,
-            analysis, and reporting. I also build websites and technical prototypes, including C++
-            projects with Arduino.
-          </p>
+          <div id="about" class="about-card glass reveal">
+            <p class="eyebrow">About</p>
+            <h3>Learning, building, and growing in IT</h3>
+            <div class="about-layout">
+              <img
+                src="images/my-picture.jpeg"
+                onerror="this.onerror=null;this.src='my picture.jpeg';"
+                alt="Portrait of Josue Mutsiirwa"
+                class="profile-photo"
+              />
+              <div>
+                <p>
+                  I am still learning IT at Mount Kenya University and building my practical skills to
+                  become a strong IT professional.
+                </p>
+                <p>
+                  I studied electronics in high school. Today I combine that foundation with coding,
+                  data analysis, and website creation.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="skills" class="section container">
         <div class="section-head reveal">
           <p class="eyebrow">Skills</p>
-          <h3>Core capabilities</h3>
+          <h3>My real current skills</h3>
         </div>
         <div class="skills-grid">
-          <article class="skill-card glass reveal"><h4>Excel</h4><div class="bar"><span style="width:88%"></span></div></article>
-          <article class="skill-card glass reveal"><h4>SQL</h4><div class="bar"><span style="width:82%"></span></div></article>
-          <article class="skill-card glass reveal"><h4>Python</h4><div class="bar"><span style="width:86%"></span></div></article>
-          <article class="skill-card glass reveal"><h4>Power BI</h4><div class="bar"><span style="width:80%"></span></div></article>
-          <article class="skill-card glass reveal"><h4>Website Creation</h4><div class="bar"><span style="width:78%"></span></div></article>
-          <article class="skill-card glass reveal"><h4>C++ (Arduino)</h4><div class="bar"><span style="width:72%"></span></div></article>
+          <article class="skill-card glass reveal"><h4>IT Student at Mount Kenya University</h4><div class="bar"><span style="width:64%"></span></div></article>
+          <article class="skill-card glass reveal"><h4>Electronics Skills</h4><div class="bar"><span style="width:80%"></span></div></article>
+          <article class="skill-card glass reveal"><h4>C++ with Arduino</h4><div class="bar"><span style="width:82%"></span></div></article>
+          <article class="skill-card glass reveal"><h4>Python Data Cleaning & Analysis</h4><div class="bar"><span style="width:84%"></span></div></article>
+          <article class="skill-card glass reveal"><h4>Database Management (SQL)</h4><div class="bar"><span style="width:73%"></span></div></article>
+          <article class="skill-card glass reveal"><h4>Website Creation (HTML, CSS, JavaScript)</h4><div class="bar"><span style="width:88%"></span></div></article>
         </div>
       </section>
 
       <section id="projects" class="section container">
         <div class="section-head reveal">
           <p class="eyebrow">Projects</p>
-          <h3>Data projects with measurable impact</h3>
+          <h3>Projects in data, Arduino C++, and web development</h3>
         </div>
         <div class="projects-grid">
           <article class="project-card glass reveal">
@@ -121,18 +126,38 @@
             <p><strong>Key Insights:</strong> Built reusable SQL queries to track delivery delays and bottleneck causes.</p>
             <p><strong>Business Impact:</strong> Reduced reporting time and improved decision speed for operations managers.</p>
           </article>
+
+          <article class="project-card glass reveal">
+            <div class="project-visual chart-2"></div>
+            <h4>Arduino Smart Irrigation Prototype</h4>
+            <p><strong>Problem:</strong> Small farms needed a low-cost way to avoid overwatering crops.</p>
+            <p><strong>Tools:</strong> C++ (Arduino), moisture sensor, relay module</p>
+            <p><strong>Key Insights:</strong> Built automated watering logic based on live soil moisture levels.</p>
+            <p><strong>Business Impact:</strong> Improved water efficiency and reduced manual monitoring time.</p>
+          </article>
+
+          <article class="project-card glass reveal">
+            <div class="project-visual chart-1"></div>
+            <h4>Business Website Development</h4>
+            <p><strong>Problem:</strong> A local business had no web presence for customer engagement.</p>
+            <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Key Insights:</strong> Designed responsive pages with clear service info and contact flow.</p>
+            <p><strong>Business Impact:</strong> Increased inquiry opportunities and improved online visibility.</p>
+          </article>
         </div>
       </section>
 
       <section id="services" class="section container">
         <div class="section-head reveal">
           <p class="eyebrow">Services</p>
-          <h3>How I can help your business</h3>
+          <h3>How I can help with data, electronics, and web work</h3>
         </div>
         <div class="services-grid">
           <article class="service-card glass reveal"><h4>Data Cleaning</h4><p>Prepare, standardize, and validate messy datasets for reliable analysis.</p></article>
           <article class="service-card glass reveal"><h4>Data Analysis</h4><p>Extract trends, uncover patterns, and generate practical recommendations.</p></article>
           <article class="service-card glass reveal"><h4>Dashboard Creation</h4><p>Build modern, decision-focused dashboards in Power BI and Excel.</p></article>
+          <article class="service-card glass reveal"><h4>Arduino C++ Prototyping</h4><p>Develop sensor-based Arduino prototypes for practical automation ideas.</p></article>
+          <article class="service-card glass reveal"><h4>Website Development</h4><p>Create responsive websites using HTML, CSS, and JavaScript.</p></article>
           <article class="service-card glass reveal"><h4>Business Reporting</h4><p>Deliver clear reports and insights stakeholders can act on immediately.</p></article>
         </div>
       </section>
@@ -140,7 +165,7 @@
       <section id="contact" class="section container">
         <div class="section-head reveal">
           <p class="eyebrow">Contact</p>
-          <h3>Let’s work together</h3>
+          <h3>Let us work together</h3>
         </div>
         <div class="contact-wrap">
           <form action="https://formspree.io/f/mzdynbro" method="POST" class="contact-form glass reveal">
@@ -151,9 +176,7 @@
             <button type="submit" class="btn btn-primary">Send Message</button>
           </form>
           <div class="contact-info glass reveal">
-            <p><strong>Email:</strong> your-email@example.com</p>
-            <p><strong>LinkedIn:</strong> linkedin.com/in/your-profile</p>
-            <p><strong>Status:</strong> Available for freelance and collaborations</p>
+            <p><strong>Status:</strong> Available for internships, freelance support, and collaborations</p>
           </div>
         </div>
       </section>
